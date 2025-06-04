@@ -275,7 +275,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button {
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
@@ -702,6 +702,7 @@ opacity: 0.9;
   /* Skills  */
     .skill-bx {
       margin-top: 0px;
+      border-radius: 40px;
     }
 
   /* Projects  */
@@ -715,7 +716,8 @@ opacity: 0.9;
   /* Contact  */
   .contact form button {
     margin: 5px auto 0 auto;
-    display: flex
+    display: flex;
+    padding: 10px 30px;
   }
   /* Newsletter  */
   .new-email-bx button {

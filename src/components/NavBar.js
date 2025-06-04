@@ -4,6 +4,7 @@ import logo from "../assets/img/my-pic.jpeg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon4 from "../assets/img/whatsapp1.png";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -44,9 +45,10 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/mayowa-ogunronbi-0b9b221b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src={navIcon1} alt="LinkedIn" /></a>
+                <a href="https://www.facebook.com/share/18YBYUQMYK/"><img src={navIcon2} alt="Facebook" /></a>
+                {/* <a href="#"><img src={navIcon3} alt="Instagram" /></a> */}
+                <a href="https://wa.me/message/MMYV6N2U4JRWI1"><img src={navIcon4} alt="WhatsaApp" /></a>
               </div>
               <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
             </span>

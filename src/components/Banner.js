@@ -52,7 +52,10 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi, I'm Mayowa O.B. `}<span className="wrap">{ text }</span></h1>
                   <p>A Front-End Developer with strong experience in website development and management, delivering responsive and user-friendly web interfaces. Also experienced in graphic design and digital marketing, creating visually engaging contents that boost online presence and user engagement.</p>
-                  <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
+                  {/* <button onClick={() => console.log('connect')}>Download My CV <ArrowRightCircle size={25} /></button> */}
+                  <a href="/MAYOWA OGUNRONBI BABATUNDE CV_20250604_134633_0000.pdf" download style={{ textDecoration: "none" }}>
+                    <button>Download My CV  <ArrowRightCircle size={25} /></button>
+                  </a>
                 </div>
               }
             </TrackVisibility>

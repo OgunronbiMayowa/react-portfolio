@@ -8,7 +8,9 @@ export const ProjectCard = ({title, description, imgUrl, url}) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <div>{description}</div>
-          <button><a href={url}></a>View</button>
+          <button onClick={() => window.open(url, '_blank')}> 
+            View
+          </button>
         </div>
       </div>
     </Col>

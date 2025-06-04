@@ -1,11 +1,18 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/Project 4.jpg";
-import projImg5 from "../assets/img/Project 5.jpg";
-import projImg6 from "../assets/img/Project 6.jpg";
+import { ProjectCard2 } from "./ProjectCard2";
+import design1 from "../assets/img/design1.jpg";
+import design2 from "../assets/img/design2.jpg";
+import design3 from "../assets/img/design3.jpg";
+import design4 from "../assets/img/design1.jpg";
+import design5 from "../assets/img/design2.jpg";
+import design6 from "../assets/img/design3.jpg";
+import projImg1 from "../assets/img/blakers.jpg";
+import projImg2 from "../assets/img/tec.jpg";
+import projImg3 from "../assets/img/ventis.jpg";
+import projImg4 from "../assets/img/eandelmagazine.jpg";
+import projImg5 from "../assets/img/sradev.jpg";
+import projImg6 from "../assets/img/savepouchAfrica.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -13,39 +20,90 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "SavePouch Africa",
-      description: "Business & Finance",
-      imgUrl: projImg1,
-      url: "https://savepouchafrica.com"
-    },
-    {
       title: "Blakers Industries",
       description: "Building & Construction",
-      imgUrl: projImg2,
-      url: "https://savepouchafrica.com"
+      imgUrl: projImg1,
+      url: "https://blakerindustries.com/"
     },
     {
       title: "Trusted Edge",
       description: "Business & Consultation",
-      imgUrl: projImg3,
-      url: "https://savepouchafrica.com"
-    },
-    {
-      title: "Teachers Field",
-      description: "Education & Legacy",
-      imgUrl: projImg3,
-      url: "https://savepouchafrica.com"
-    },
-    {
-      title: "SRADeV Nigeria",
-      description: "Environmental Sustainablity",
       imgUrl: projImg2,
-      url: "https://savepouchafrica.com"
+      url: "https://trustededgeconsult.com/"
     },
     {
       title: "Ventis",
       description: "Home Services",
-      imgUrl: projImg1,
+      imgUrl: projImg3,
+      url: "https://www.ventis.com.au/"
+    },
+    {
+      title: "Eandel Magazine",
+      description: "African News",
+      imgUrl: projImg4,
+      url: "https://eandelmagazine.com/eandelmagazine/"
+    },
+    {
+      title: "SRADeV Nigeria",
+      description: "Environmental Sustainablity",
+      imgUrl: projImg5,
+      url: "https://sradev.org/"
+    },
+    {
+      title: "SavePouch Africa",
+      description: "Business & Finance",
+      imgUrl: projImg6,
+      url: "https://savepouchafrica.com"
+    }
+  ]
+
+  const designs = [
+    {
+      imgUrl: design1,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design2,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design3,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design4,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design5,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design6,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design1,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design2,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design3,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design4,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design5,
+      url: "https://savepouchafrica.com"
+    },
+    {
+      imgUrl: design6,
       url: "https://savepouchafrica.com"
     }
   ]
@@ -89,7 +147,18 @@ export const Projects = () => {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  Lorem Ipsum
+                  <Row>
+                    {
+                      designs.map((design, index) => {
+                        return (
+                          <ProjectCard2
+                            key={index}
+                            {...design}
+                          />
+                        )
+                      })
+                    }
+                  </Row>
                 </Tab.Pane>
               </Tab.Content>
             </Tab.Container>
