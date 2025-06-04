@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import logo from "../assets/img/my-pic.jpeg";
-import LinkedInIcon from "../assets/img/linkedIn-icon.svg";
+import LinkedInIcon from "../assets/img/linkedIn.svg";
 import FacebookIcon from "../assets/img/facebook-icon.svg";
 // import instagramIcon from "../assets/img/instagram-icon.svg";
 import WhatsaAppIcon from "../assets/img/whatsapp-icon.png";

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import logo from "../assets/img/my-pic.jpeg";
-import LinkedInIcon from "../assets/img/linkedIn-icon.svg";
+import LinkedInIcon from "../assets/img/linkedIn.svg";
 import FacebookIcon from "../assets/img/facebook-icon.svg";
 // import navIcon3 from "../assets/img/nav-icon3.svg";
 import WhatsaAppIcon from "../assets/img/whatsapp-icon.png";
