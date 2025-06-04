@@ -35,7 +35,7 @@ export const Skills = () => {
           <Col>
             <TrackVisibility>
               {({ isVisible }) => 
-                <div className={isVisible ? "animate__animated animate__bounceIn" : ""} >
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""} >
                   <div className="skill-bx">
               <h2>Skills</h2>
               <p>I thrive on continuous learning and staying ahead of digital trends, ensuring that I bring fresh, effective strategies to every project, ensuring measurable success and long-term impact for businesses and their digital presence.</p>

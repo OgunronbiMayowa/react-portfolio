@@ -674,3 +674,63 @@ opacity: 0.9;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+
+
+/* RESPONSIVENESS  */
+/* Mobile View  */
+@media screen and (max-width:768px) {
+  /* Navbar  */
+  .logo {
+    width: 50px;
+  }
+  .navbar-collapse {
+    background: black;
+  }
+
+  /* Banner  */
+  .banner .tagline {
+    font-size: 15px;
+  }
+  .banner h1 {
+    font-size: 45px;
+  }
+  .banner button {
+    margin: 60px 0;
+  }
+
+  /* Skills  */
+    .skill-bx {
+      margin-top: 0px;
+    }
+
+  /* Projects  */
+  .project p {
+    width: 76%;
+  }
+  .project .nav.nav-pills  {
+    width: 70%;
+  }
+
+  /* Contact  */
+  .contact form button {
+    margin: 5px auto 0 auto;
+    display: flex
+  }
+  /* Newsletter  */
+  .new-email-bx button {
+    padding: 10px 20px;
+    border-radius: 16px
+  }
+  .newsletter-bx {
+    border-radius: 25px;
+    padding: 8%;
+}
+  /* Footer  */
+  #footer-logo {
+    display: none;
+  }
+  .footer {
+    padding: 0
+  }
+}
