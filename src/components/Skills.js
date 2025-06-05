@@ -5,6 +5,8 @@ import colorSharp from "../assets/img/color-sharp.png";
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
+import BackgroundTop from "../assets/img/background-top.png";
+import BackgroundBottom from "../assets/img/background-bottom.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -112,7 +114,9 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} />
+      {/* <img className="background-image-left" src={colorSharp} /> */}
+      <img className="background-top" src={BackgroundTop} />
+      <img className="background-bottom" src={BackgroundBottom} />
     </section>
   )
 }
