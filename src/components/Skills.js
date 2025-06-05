@@ -39,74 +39,74 @@ export const Skills = () => {
               {({ isVisible }) => 
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""} >
                   <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>I thrive on continuous learning and staying ahead of digital trends, ensuring that I bring fresh, effective strategies to every project, ensuring measurable success and long-term impact for businesses and their digital presence.</p>
-              <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>HTML</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="" />
-                  <h5>CSS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="" />
-                  <h5>Bootstrap</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>JavaScript</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="" />
-                  <h5>jQuery</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="" />
-                  <h5>React JS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>Git</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="" />
-                  <h5>APIs</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="" />
-                  <h5>MySQL</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>Mongoose</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="" />
-                  <h5>Node JS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="" />
-                  <h5>Express JS</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>PHP</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="" />
-                  <h5>slimPHP</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="" />
-                  <h5>Wordpress</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="" />
-                  <h5>Canva</h5>
-                </div>
-              </Carousel>
+                    <h2>Skills</h2>
+                    <p>I thrive on continuous learning and staying ahead of digital trends, ensuring that I bring fresh, effective strategies to every project, ensuring measurable success and long-term impact for businesses and their digital presence.</p>
+                    <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                      <div className="item">
+                        <img src={meter3} alt="" />
+                        <h5>HTML</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>CSS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>Bootstrap</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>JavaScript</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>jQuery</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>React JS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>Git</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>APIs</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>MySQL</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>Mongoose</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>Node JS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>Express JS</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>PHP</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter2} alt="" />
+                        <h5>slimPHP</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="" />
+                        <h5>Wordpress</h5>
+                      </div>
+                      <div className="item">
+                        <img src={meter3} alt="" />
+                        <h5>Canva</h5>
+                      </div>
+                    </Carousel>
                   </div>
                 </div>
               }
@@ -115,8 +115,8 @@ export const Skills = () => {
         </Row>
       </Container>
       {/* <img className="background-image-left" src={colorSharp} /> */}
-      <img className="background-top" src={BackgroundTop} />
-      <img className="background-bottom" src={BackgroundBottom} />
+      <img className="background-top" src={BackgroundTop} alt="background-top" />
+      <img className="background-bottom" src={BackgroundBottom} alt="background-bottom" />
     </section>
   )
 }
