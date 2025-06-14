@@ -58,14 +58,11 @@ export const Contact = () => {
            </TrackVisibility>
           </Col>
           <Col md={6}>
-            {/* <TrackVisibility> */}
-              {/* {({ isVisible }) =>  */}
-                {/* // <div className={isVisible ? "animate__animated animate__slideInRight" : ""} > */}
-                  <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit}>
-                  <Row>
-                    <Col sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstname', e.target.value)} />
+            <h2>Get In Touch</h2>
+            <form onSubmit={handleSubmit}>
+              <Row>
+                <Col sm={6} className="px-1">
+                  <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstname', e.target.value)} />
                     </Col>
                     <Col sm={6} className="px-1">
                       <input type="text" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastname', e.target.value)} />
@@ -88,11 +85,8 @@ export const Contact = () => {
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
                     }
-                  </Row>
-                  </form>
-                {/* // </div> */}
-              {/* // } */}
-           {/* </TrackVisibility> */}
+              </Row>
+            </form>
           </Col>
         </Row>
       </Container>

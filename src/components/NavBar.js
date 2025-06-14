@@ -29,7 +29,7 @@ export const NavBar = () => {
 
   return (
     // <div className="nav">
-      <Navbar expand="lg" className={scrolled ? "scrolled": ""}> {/* className="bg-body-tertiary" */}
+      <Navbar expand="lg" href="#home" className={scrolled ? "scrolled": ""}> {/* className="bg-body-tertiary" */}
         <Container>
           <Navbar.Brand href="#home">
             <img className="logo" src={logo} alt="Logo" />
@@ -51,7 +51,10 @@ export const NavBar = () => {
                 {/* <a href="#"><img src={navIcon3} alt="Instagram" /></a> */}
                 
               </div>
-              <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+              <Nav.Link href="#connect">
+                <button className="vvd" ><span>Let's Connect</span></button>
+              </Nav.Link>
+              {/* onClick={() => console.log('connect')} */}
             </span>
           </Navbar.Collapse>
         </Container>
